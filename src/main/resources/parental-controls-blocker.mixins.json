@@ -3,8 +3,7 @@
   "minVersion": "0.8",
   "package": "com.markng.parentalcontrolsblocker.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": [
-  ],
+  "mixins": [],
   "client": [
     "HttpRequestBlockerMixin"
   ],

@@ -17,7 +17,11 @@
   "icon": "assets/parental-controls-blocker/icon.png",
 
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "com.markng.parentalcontrolsblocker.ParentalControlsBlockerMod"
+    ]
+  },
   "mixins": [
     "parental-controls-blocker.mixins.json"
   ],
