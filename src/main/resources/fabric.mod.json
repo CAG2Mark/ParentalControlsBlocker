@@ -1,35 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "parental-controls-blocker",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ParentalControlsBlocker",
+  "description": "Blocks HTTP requests to Microsoft servers due to parental controls. Mitigates lag spikes on chat messages",
   "authors": [
-    "Me!"
+    "CAG2Mark"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/CAG2Mark",
+    "sources": "https://github.com/CAG2Mark/ParentalControlsBlocker"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/parental-controls-blocker/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
-    "modid.mixins.json"
+    "parental-controls-blocker.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.17.x",
     "java": ">=17"
   },
   "suggests": {
